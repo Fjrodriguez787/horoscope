@@ -1,0 +1,106 @@
+/******************************************
+/* SETUP
+/*******************************************/
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Oswald', sans-serif;
+  background: url('https://vignette.wikia.nocookie.net/central/images/0/07/Outer_space.jpeg/revision/latest?cb=20130212000142')
+}
+h1{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  border: 1px solid pink;
+  margin-left: 20px;
+}
+h3{
+  text-align: center;
+  color: pink;
+  font-size: 30px;
+  /* border: 1px solid pink; */
+  margin-left: 20px;
+}
+h2{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+}
+#one{
+  /* border: 1px solid white; */
+  width: 20%;
+  float: left;
+  margin-left: 30%;
+  margin-bottom: 30px;
+}
+#two{
+  width: 15%;
+
+  float: left;
+  clear: right;
+  margin-bottom: 30px;
+}
+.day{
+  float: right;
+}
+#three{
+  width: 35%;
+  margin-left: 30%;
+  border: 1px solid pink;
+  height: 100px;
+  background: white;
+  clear: both;
+}
+#four{
+  width: 15%;
+  margin-left: 42%;
+
+  margin-top: 20px;
+}
+h5{
+  color: black;
+  font-size: 15px;
+  /* border: 1px solid pink; */
+  margin-left: 20px;
+}
